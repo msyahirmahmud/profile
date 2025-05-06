@@ -8,6 +8,7 @@ import DisplayLottie from "../../components/displayLottie/DisplayLottie";
 export default function StackProgress() {
   if (techStack.viewSkillBars) {
     return (
+      <div id="proficiency">
       <Fade bottom duration={1000} distance="20px">
         <div className="skills-container">
           <div className="skills-bar">
@@ -39,6 +40,7 @@ export default function StackProgress() {
           </div>
         </div>
       </Fade>
+    </div>
     );
   }
   return null;
