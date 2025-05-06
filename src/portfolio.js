@@ -33,7 +33,7 @@ const greeting = {
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/msyahirmahmud/portfolio",
+  github: "https://github.com/msyahirmahmud",
   linkedin: "https://www.linkedin.com/in/muhamad-syahir-mahmud-942606168/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
   gmail: "syahir136erezeki@gmail.com",
   // gitlab: "https://gitlab.com/saadpasta",
@@ -109,10 +109,6 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fas fa-fire"
     },
     {
-      skillName: "python",
-      fontAwesomeClassname: "fab fa-python"
-    },
-    {
       skillName: "docker",
       fontAwesomeClassname: "fab fa-docker"
     }
@@ -150,10 +146,11 @@ const educationInfo = {
 // Your top 3 proficient stacks/tech experience
 
 const techStack = {
+  display: true,
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "Frontend/Design", //Insert stack or technology you have experience in
+      Stack: "Frontend", //Insert stack or technology you have experience in
       progressPercentage: "90%" //Insert relative proficiency in percentage
     },
     {
@@ -166,7 +163,7 @@ const techStack = {
     },
     {
       Stack: "Infra",
-      progressPercentage: "40%"
+      progressPercentage: "60%"
     }
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
@@ -181,19 +178,19 @@ const workExperiences = {
       role: "Senior IT Engineer",
       company: "Reazon Malaysia",
       companylogo: require("./assets/images/rm.png"),
-      date: "2023 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      date: "July 2023 – Present",
+      desc: "Led the Malaysian Menu Team for a Japanese food delivery web platform.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Enhanced team collaboration and resolved cross-functional technical issues.",
+        "Delivered innovative solutions and features as a React frontend developer, improving platform performance and user experience."
       ]
     },
     {
       role: "IT Engineer",
       company: "OK Blockchain Center Sdn Bhd",
       companylogo: require("./assets/images/obc.png"),
-      date: "2018 – 2023",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      date: "Oct 2018 – July 2023 ",
+      desc: "Contributed to three major projects with a focus on decentralized systems, microservices, and blockchain integration"
     },
     // {
     //   role: "Software Engineer Intern",
